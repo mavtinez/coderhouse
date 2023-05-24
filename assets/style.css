@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    background-color: #000000;
+}
+
+/* INDEX.HTML */
+
+
+/* barra de navegacion */
+
+nav {
+    background-color: #66666e;
+}
+
+.navbar-brand {
+    color: rgb(0, 0, 0);
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-toggler {
+    color: rgb(0, 0, 0);
+}
+
+/* ENCABEZADO */
+
+.encabezado {
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.encabezado h1 {
+    color: #ffffff
+}
+
+/* carrusel de imagenes */
+
+.box-1 {
+    color: #e6e6e9;
+    align-items: center;
+    background-color: #e6e6e9;
+    padding: 10px;
+}
+
+
+/* new season section */
+
+.box-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e6e6e9;
+    color: #f6fff8;
+}
+
+/* sales */
+
+/* footer */
+
+.piePrincipal {
+    padding: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+/* CONTACTS.HTML */
+
+div .boxInfo1 {
+    background-color: #66666ede;
+    color: #dbd8d8e1;
+}
