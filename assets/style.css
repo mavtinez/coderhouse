@@ -3,13 +3,23 @@ body {
     background-color: #000000;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo{
+    padding-left: 10px;
+    max-width: 50px;
+}
+
 /* INDEX.HTML */
 
 
-/* barra de navegacion */
+/* BARRA DE NAVEGACION */
 
 nav {
-    background-color: #66666e;
+    background-color: #ececec;
 }
 
 .navbar-brand {
@@ -36,7 +46,7 @@ nav {
     color: #ffffff
 }
 
-/* carrusel de imagenes */
+/* CARRUSEL DE IMAGENES */
 
 .box-1 {
     color: #e6e6e9;
@@ -46,7 +56,7 @@ nav {
 }
 
 
-/* new season section */
+/* NEW SEASON SECTION */
 
 .box-2 {
     margin-top: 10px;
@@ -56,19 +66,32 @@ nav {
     color: #f6fff8;
 }
 
-/* sales */
+/*  SALES SECTION */
 
-/* footer */
+h4 {
+    color: #e6e6e9;
+}
+
+
+/* (ALL) FOOTER */
 
 .piePrincipal {
-    padding: 5px;
+    padding: 1px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
 }
 
-/* CONTACTS.HTML */
+/* (CONTACTS.HTML)  */
+
 
 div .boxInfo1 {
     background-color: #66666ede;
     color: #dbd8d8e1;
+}
+
+div .infoContacto {
+    color: #dbd8d8e1;
+    background-color: #66666ede;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
 }
