@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    background-color: #000000;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo {
+    padding-left: 10px;
+    max-width: 50px;
+}
+
+.container p {
+    color: #ffffff;
+}
+
+.carrito {
+    display: none;
+}
+
+.carrito.mostrar {
+    display: block;
+}
+
+/* INDEX.HTML */
+
+img {
+    display: inline-block;
+    border-radius: 1%;
+}
+
+/* BARRA DE NAVEGACION */
+
+nav {
+    background-color: #000000;
+
+    &.navbar-brand {
+        color: #ffffff;
+    }
+
+    &.nav-link {
+        color: #ffffff;
+    }
+
+    &.navbar-toggler {
+        color: #ffffff;
+    }
+}
+
+/* ENCABEZADO */
+
+.encabezado {
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    & h1 {
+        color: #ffffff;
+        font-family: 'Teko';
+        font-size: 100px;
+    }
+}
+
+
+/* CARRUSEL DE IMAGENES */
+
+.box-1 {
+    color: #e6e6e9;
+    align-items: center;
+    background-color: #e6e6e9;
+    padding: 10px;
+}
+
+/* NEW SEASON SECTION */
+
+.box-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e6e6e9;
+    color: #f6fff8;
+}
+
+// ENCABEZADO DE PAGINAS
+
+.encabezado-2 {
+    h1 {
+        font-family: 'Teko';
+        font-size: 60px;
+    }
+}
+
+h2{
+    font-family: 'Teko';
+    font-size: 60px;
+}
+
+h3 {
+    font-family: 'Teko';
+    font-size: 50px;
+}
+
+h4 {
+    color: #e6e6e9;
+    font-family: 'Teko';
+    font-size: 50px;
+}
+
+/* (ALL) FOOTER */
+
+.piePrincipal {
+    padding: 1px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+/* (CONTACTS.HTML) */
+
+div {
+    &.boxInfo1 {
+        background-color: #66666ede;
+        color: #dbd8d8e1;
+    }
+
+    &.infoContacto {
+        color: #dbd8d8e1;
+        background-color: #66666ede;
+        padding-bottom: 5px;
+        margin-bottom: 3px;
+    }
+}

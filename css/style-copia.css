@@ -8,13 +8,30 @@ a {
     text-decoration: none;
 }
 
-.logo{
+.logo {
     padding-left: 10px;
     max-width: 50px;
 }
 
+.container p {
+    color: #ffffff;
+}
+
+.carrito {
+    display: none;
+}
+
+.carrito.mostrar {
+    display: block;
+}
+
+
 /* INDEX.HTML */
 
+img {
+    display: inline-block;
+    border-radius: 1%;
+}
 
 /* BARRA DE NAVEGACION */
 
