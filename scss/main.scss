@@ -50,16 +50,25 @@ nav {
     }
 }
 
-/* ENCABEZADO */
+
+// ENCABEZADO
 
 .encabezado {
     padding-top: 2%;
     padding-bottom: 2%;
 
-    & h1 {
+    &h1 {
         color: #ffffff;
         font-family: 'Teko';
         font-size: 100px;
+
+        @include media-breakpoint-up(sm) {
+            font-size: 80px;
+        }
+
+        @include media-breakpoint-up(xs) {
+            font-size: 60px;
+        }
     }
 }
 
@@ -92,7 +101,7 @@ nav {
     }
 }
 
-h2{
+h2 {
     font-family: 'Teko';
     font-size: 60px;
 }
