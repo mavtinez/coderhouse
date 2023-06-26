@@ -1,9 +1,8 @@
-
 body {
     text-align: center;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .container {
@@ -22,7 +21,7 @@ a {
 }
 
 .container p {
-    color: #ffffff;
+    color: #000000;
 }
 
 .carrito {
@@ -65,7 +64,7 @@ nav {
     padding-bottom: 2%;
 
     h1 {
-        color: #ffffff;
+        color: #000000;
         font-family: 'Bacasime Antique', serif;
         font-size: 50px;
 
@@ -96,6 +95,21 @@ nav {
     padding: 10px;
     background-color: #e6e6e9;
     color: #f6fff8;
+}
+
+
+
+.cartaQuehacemos .card-title {
+    color: #ffffff;
+}
+
+// BOX DE CONTACTS
+
+.boxInfo1 {
+    & p {
+        color: #ffffff;
+        background-color: #0000005e;
+    }
 }
 
 // ENCABEZADO DE PAGINAS
@@ -130,11 +144,26 @@ h3 {
 }
 
 h4 {
-    color: #e6e6e9;
+    color: #000000;
     font-family: 'Bacasime Antique', serif;
     font-size: 50px;
 
     @media (min-width: 576px) {
         font-size: 60px;
     }
+}
+
+h5 {
+    color: #000000;
+    font-family: 'Bacasime Antique', serif;
+}
+
+h6 {
+    color: #060000;
+    font-family: 'Bacasime Antique', serif;
+}
+
+footer{
+    color: #000000;
+    background-color: #ffffffa3;
 }
